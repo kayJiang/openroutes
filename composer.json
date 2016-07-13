@@ -1,0 +1,20 @@
+{
+    "name": "openroutes/openroutes",
+    "type": "library",
+    "description": "route for PHP",
+    "keywords": ["route", "openroutes"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiangkaiqiang",
+            "email": "1227427774@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {"openroutes\\openroutes\\": ""}
+    }
+}
