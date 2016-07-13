@@ -32,5 +32,5 @@ openroutes::get('article/id/{$id}', function ($id) {
 ```php
 openroutes::get('article/id/{$id}', function ($id) {
      echo 'article/id'.$id;
-})->where(['id' => '/^[0-9]*$/']);
+})->verify(['id' => '/^[0-9]*$/']);
 ```
