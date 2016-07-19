@@ -1,10 +1,29 @@
 # openroutes
 >轻量级php路由
+###安装
+>编辑composer.json
+```json
+{
+    "require": {
+        "openroutes/openroutes": "dev-master",
+    }
+}
+```
 
+>执行 composer update
+
+###使用
+```php
+require './vendor/autoload.php';
+use \openroutes\openroutes\openroutes;
+openroutes::get('index', function () {
+    echo 'index';
+});
+openroutes::run();
+```
 ###示例
 
 #####get/post/delete/put
-
 ```php
 openroutes::get('article/info', function () {
      echo 'article/info';
