@@ -55,3 +55,5 @@ openroutes::get('article/id/{$id}', function ($id) {
      echo 'article/id'.$id;
 })->verify(['id' => '/^[0-9]*$/']);
 ```
+
+12321321
